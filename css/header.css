@@ -1,0 +1,14 @@
+@import "./header/header-title/title.css";
+@import "./header/search-panel.css";
+@import "./header/navigation__links.css";
+
+.header__top-line {
+	background: #2a2a2a;
+	height: 15px;
+}
+.navigation {
+	height: 83px;
+	border-top: 1px solid #444;
+	background: #191919;
+	display: flex;
+}

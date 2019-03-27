@@ -1,0 +1,8 @@
+@import "./search-selectors/search-selectors__spread-line.css";
+@import "./search-selectors/search-selectors__menu-tab.css";
+
+.search-selectors {
+    display: flex;
+    font: 13px Verdana, Arial, sans-serif;
+    padding-left: 1px;
+}

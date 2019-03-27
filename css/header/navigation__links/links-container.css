@@ -1,0 +1,43 @@
+.links-container {
+    display: flex;
+    align-items: center;
+    margin: 14px 10px 0 32px
+}
+
+.links-container__spacer {
+    width: 1px;
+    height: 11px;
+    background: #888;
+    margin: 5px 7px 0 7px;
+}
+
+.links-container__link-icon--size {
+    font-size: 12px;
+    color: white;
+    padding: 2px 5px 0 5px;
+}
+
+.imdb-logo-arrow {
+    color: #ccc;
+    font-size: 12px;
+    margin: 0 8px 7px 5px;
+}
+
+.links-container__help {
+    font: 11px Verdana, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 3px 8px 0 7px;
+}
+
+.links-container__help:hover {
+    text-decoration: underline;
+}
+
+.links-container__link-icon--size {
+    cursor: pointer;
+}
+
+.fa-youtube, .fa-twitter {
+    font-size: 10px;
+}

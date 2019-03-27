@@ -1,0 +1,8 @@
+@import "./navigation__links/links-container.css";
+@import "./navigation__links/sign-in-button.css";
+
+.navigation__links {
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+}

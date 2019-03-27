@@ -1,0 +1,8 @@
+@import "./navigation__search/search-panel__input.css";
+@import "./navigation__search/search-panel__submit.css";
+@import "./navigation__search/search-selectors.css";
+
+.search-panel {
+    display: flex;
+    margin-top: 8px;
+}

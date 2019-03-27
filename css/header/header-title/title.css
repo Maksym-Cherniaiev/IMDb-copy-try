@@ -1,0 +1,30 @@
+.navigation__title {
+	width: 140px;
+	height: 83px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-area {
+  height: 49px;
+	width: 101px;
+	background: rgb(245, 197, 24);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	margin-left: 1px;
+}
+
+.title-area:hover {
+	background: rgb(232, 183, 8);
+	cursor: pointer;
+}
+
+.title-name {
+	font-size: 39px;
+	letter-spacing: 1.5px;
+	text-shadow: 1px 0 rgb(181, 146, 17);
+	margin-left: 4px;
+}

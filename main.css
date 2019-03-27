@@ -1,0 +1,13 @@
+@import "./css/header.css";
+
+.main-wrap {
+  width: 1008px;
+	margin: auto;
+	font-family: ImpactT;
+	height: 1000px;
+}
+
+@font-face { 
+	font-family: ImpactT;
+	src: url("./font/19929_ImpactT.ttf"); 
+}

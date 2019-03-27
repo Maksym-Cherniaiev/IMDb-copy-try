@@ -1,0 +1,22 @@
+.search-panel__submit {
+    margin-left: 1px;
+    border-radius: 0 3px 3px 0;
+    width: 33px;
+    background-color: rgb(245, 197, 24);
+    border-color: #D5AB55 #c93 #c93 #D5AB55;
+    border: 1px solid rgb(212, 172, 27);
+    outline: none;
+}
+
+.search-panel__submit:hover {
+    background-color: #f3ce00;
+    border-bottom: 1px solid #CC9933;
+    border-left: 1px solid #D5AB55;
+    border-right: 1px solid #CC9933;
+    border-top: 1px solid #D5AB55;
+    cursor: pointer;
+}
+
+.submit-icon {
+    font-size: 17px;
+}

@@ -1,0 +1,57 @@
+.search-panel__input {
+    width: 419px;
+    border: none;
+    height: 19px;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4) inset;
+    padding: 5px 8px;
+    font: 14px Verdana, Arial, sans-serif;
+}
+
+.search-panel__categories {
+    width: 100px;
+    height: 29px;
+    margin-left: 1px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4) inset;
+    background: white;
+}
+
+.search-panel__categories:hover {
+    background: linear-gradient(white, #ddd);
+}
+
+.categories-selector {
+    font: 11px Verdana, Arial, sans-serif;
+    border: none;
+    width: 138px;
+    padding: 10px 0 6px 10px;
+    color: #999;
+    outline: none;
+    background: url("./../../../images/arrow-down.png");
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: 85px 13px;
+}
+
+.categories-selector::after {
+    content: "▼";
+  padding: 0 8px;
+  font-size: 12px;
+  position: absolute;
+  right: 8px;
+  top: 4px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
+  box-sizing: border-box;
+} 
+
+.categories-selector:hover {
+    color: black;
+}
+
+.categories-title {
+    font-size: 7px;
+}

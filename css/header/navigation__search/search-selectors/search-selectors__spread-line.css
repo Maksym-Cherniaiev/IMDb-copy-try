@@ -1,0 +1,5 @@
+.search-selectors__spread-line {
+    width: 1px;
+    height: 46px;
+    background: linear-gradient(to bottom, rgba(51,51,51,0) 3%, #333 15%, #727272 50%, #232323 85%);
+}

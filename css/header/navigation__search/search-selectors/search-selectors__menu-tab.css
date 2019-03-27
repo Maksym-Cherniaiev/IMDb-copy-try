@@ -1,0 +1,38 @@
+.search-selectors__menu-tab {
+    padding: 7px 0 0 15px;
+    margin: 0;
+    display: flex;
+}
+
+.search-selectors__menu-tab:hover {
+    background: linear-gradient(0.50turn, rgb(25, 25, 25), rgb(80, 80, 80), rgb(25, 25, 25));
+}
+
+.menu-tab__links {
+    color: white;
+    line-height: 15.5px;
+    padding-right: 1px;
+}
+
+.menu-tab-link {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+.menu-tab-link:hover {
+    text-decoration: underline;
+}
+
+.watchlist {
+    color: #f5de50;
+    line-height: 35px;
+}
+
+.selectors-arrow {
+    color: #ccc;
+    width: 9px;
+    height: 16px;
+    margin: 8.5px 15px 3px 15px;
+    font-size: 11px;
+}
